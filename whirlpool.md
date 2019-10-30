@@ -1,5 +1,5 @@
-# FAQ for [Whirlpool](https://github.com/Samourai-Wallet/Whirlpool)
-By [6102bitcoin](https://twitter.com/6102bitcoin)
+# Preguntas y respuestas [Whirlpool](https://github.com/Samourai-Wallet/Whirlpool)
+By [6102bitcoin](https://twitter.com/6102bitcoin) Traducido por 4rkad (https://twitter.com/multicripto)
 
 Note: Many of these Q&A have been copied from real users, see footer for acknowledgements. 
 
