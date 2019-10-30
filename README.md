@@ -1,5 +1,5 @@
 # Preguntas y respuestas
-Frequently Asked Questions Compilation 
+Recopilación de preguntas y respuestas 
 
 1. [Wasabi FAQ](wasabi.md)
 2. [Seed FAQ](seed.md)
