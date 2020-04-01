@@ -3,7 +3,7 @@ By [6102bitcoin](https://twitter.com/6102bitcoin)
 
 ## Index
 
-1) [**The Basics**](#1-The-Basics)
+1) [**Las bases**](#1-The-Basics)
 	- [Introducción](#Introducción)
 	- [Terminología](#Terminology)
 	- [¿Qué es una cartera determinista jerárquica?](#What-is-a-HD-Wallet)
