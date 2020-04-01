@@ -4,9 +4,9 @@ By [6102bitcoin](https://twitter.com/6102bitcoin)
 ## Index
 
 1) [**The Basics**](#1-The-Basics)
-	- [Introduction](#Introduction)
-	- [Terminology](#Terminology)
-	- [What is a HD Wallet?](#What-is-a-HD-Wallet)
+	- [Introducción](#Introducción)
+	- [Terminología](#Terminology)
+	- [¿Qué es una cartera determinista jerárquica?](#What-is-a-HD-Wallet)
 2) [**Creating your seed**](#2-Creating-your-seed)
 	- [Where should I physically be when I backup my seed?](#Where-should-I-physically-be-when-I-backup-my-seed)
 	- [All seeds are not created equal](#All-seeds-are-not-created-equal)
