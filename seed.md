@@ -1,5 +1,5 @@
-# FAQ Regarding Bitcoin Seeds
-By [6102bitcoin](https://twitter.com/6102bitcoin)
+# Preguntas y respuestas sobre semillas
+Por [6102bitcoin](https://twitter.com/6102bitcoin) Traducido por [Arkad](https://twitter.com/multicripto)
 
 ## Index
 
