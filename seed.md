@@ -36,7 +36,7 @@ Por [6102bitcoin](https://twitter.com/6102bitcoin) Traducido por [Arkad](https:/
 
 ### Introducción
 
-Genial - hsa decidido guardar tu bitcoin directamente en lugar de utilizar un servicio de custodia tal como un exchange. Este es un movimiento muy sabio: los exchanges se dividen en solo dos categorías; los que han sido hackeados y los que serán hackeados.
+Genial - has decidido guardar tu bitcoin directamente en lugar de utilizar un servicio de custodia tal como un exchange. Este es un movimiento muy sabio: los exchanges se dividen en solo dos categorías; los que han sido hackeados y los que serán hackeados.
 
 Al disponer de tus propias llaves, tu (y solo tu) puedes gastar tu bitcoin. Debes tomarte el tiempo de leer estas preguntas frecuentes para que comprendas cuales son los errores comunes y las mejores prácticas en el manejo de semillas. Ten en cuenta que esta es una pauta general. El nivel de seguridad necesario o deseado variará de una persona a otra, al igual que las amenazas contra las que intentas protegerse.
 
@@ -48,7 +48,7 @@ Cuando se trata de descripciones de semillas de bitcoin, las palabras a menudo s
 | ---- | ---- | ---- |
 | [**Clave privada**](https://en.bitcoin.it/wiki/Private_key) | Un número secreto de 256 bits que usa para gastar los fondos | Clave secreta | 
 | [**Semilla**](https://en.bitcoin.it/wiki/Seed_phrase) | Un número de 256 bits que se puede usar para generar una clave privada de bitcoin. |  |
-| **Semilla mnemotécnica** | The seed encoded in the form of a list of words in a specific order.  | Mnemonic / Seed Phrase / Seed Words |
+| **Semilla mnemotécnica** | The seed encoded in the form of a list of words in a specific order.  | Mnemotécnica / Semilla / Palabras de la semilla |
 | **Mnemotécnica no extendida** | 12/24 palabras (solo la mnemotecnica) | Mnemotécnica  | 
 | **Mnemotécnica extendida** | 12+/24+ palabras: Mnemotécnica (12/24 palabras) + Frase de contraseña (1 palabra o frase) | semilla extendida | 
 | **Copia de seguridad** | Un conjunto completo de información de la que se puede recuperar tu bitcoin  | |
@@ -56,20 +56,20 @@ Cuando se trata de descripciones de semillas de bitcoin, las palabras a menudo s
 
 ### ¿Qué es una cartera determinista jerárquica?
 
-In practice, most bitcoin wallets are 'HD' (Hierarchical Deterministic) wallets - This means that a single bitcoin private key is used to generate as many key pairs as is required. This makes it easy for the user to use a new address each time they receive bitcoin, which is how bitcoin is designed to be used. 
+En la práctica, la mayoría de las carteras de bitcoin son billeteras 'HD' (deterministas jerárquicas): esto significa que se usa una sola clave privada de bitcoin para generar tantos pares de llaves como sea necesario. Esto facilita que el usuario use una nueva dirección cada vez que recibe bitcoin, que es cómo Bitcoin ha sido diseñado para ser usado.
 
-With a HD wallet the bitcoin private key (which is derived from the seed) is combined with something called a 'chain code' to generate what is referred  to as a 'master extended key'. For more details see [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki).
+Con una cartera HD, la clave privada de bitcoin (que se deriva de la semilla) se combina con algo llamado 'código de cadena' para generar lo que se conoce como 'clave extendida maestra'. Para obtener más detalles, consulta [BIP32] (https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki).
 
-Typically you are presented with a mnemonic seed, a series of either 12 or 24 words from [this list](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) - it is an encoded version of your seed made to be easy to read and store. The encoding method is detailed in [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki#), but effectively each word on the wordlist corresponds with a number, and thus your 12 word mnemonic is simply an easy to write representation of a large number (your seed). 
+Por lo general, se te presenta una semilla mnemotécnica, una serie de 12 o 24 palabras de [esta lista] (https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) - siendo una versión codificada de tu semilla hecha para ser fácil de leer y almacenar. El método de codificación se detalla en [BIP39] (https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki#), pero efectivamente cada palabra en la lista de palabras corresponde con un número, y por lo tanto esas 12 palabras son simplemente una representación fácil de un número largo (tu semilla).
 
-Many wallets carelessly label the mnemonic seed as just the 'seed' - take care, the mnemonic seed can be extended with an additional word or sentence (a passphrase), without which you cannot decode the actual seed (a 256 bit number) and thus, you cannot recover your bitcoin.
+Muchas carteras etiquetan descuidadamente la semilla mnemotécnica como solo la 'semilla': ten cuidado, porque la semilla mnemotécnica se puede extender con una palabra o frase adicional (una frase de contraseña), sin la cual no puede decodificar la semilla real (un número de 256 bits) y así , no podrás recuperar tu bitcoin.
 
-All seeds encoded using BIP39 actually consist of the mnemonic + a passphrase. More secure wallets (e.g Samourai Wallet) will give you the option to set a passphrase (not to be confused with a password). **If you use a passphrase and then forget it you will lose your bitcoin.**
+Todas las semillas codificadas con BIP39 constan de una mnemotécnica de 12/24 palabras + una frase de contraseña. Las billeteras más seguras (por ejemplo, Samourai Wallet) te darán la opción de establecer una frase de contraseña (que no debe confundirse con una contraseña). **Si usa una frase de contraseña y luego la olvida, perderás tu bitcoin.**
 
-Again, because people repeatedly make this mistake: **If you set a passphrase, and forget it, you can't recover your bitcoin!**
+Repito, la gente comete este error repetidamente: **¡Si configuras una frase de contraseña y la olvida, no puedes recuperar tu bitcoin!**
 
-Anyone with access to your seed can spend your coins.
-As such it is imperative that you store copies of your seed securely. 
+Cualquier persona con acceso a tu semilla puede gastar sus monedas.
+Como tal, es imperativo que almacenes copias de tu semilla de forma segura.
 
 # 2) Creating your Seed
 
