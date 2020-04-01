@@ -32,29 +32,29 @@ By [6102bitcoin](https://twitter.com/6102bitcoin)
 	- [¿Qué es una ruta de derivación?](#What-is-the-Derivation-Path)
 	- [¿Con qué frecuencia debo verificar las copias de seguridad?](#how-often-should-i-check-backups)
 
-# 1) The Basics
+# 1) Las bases
 
-### Introduction
+### Introducción
 
-Great - you have decided to control your bitcoin directly instead of using a custodial service like an exchange. This is a very wise move - exchanges fall into only two categories; those which have been hacked and those which will be hacked.
+Genial - hsa decidido guardar tu bitcoin directamente en lugar de utilizar un servicio de custodia tal como un exchange. Este es un movimiento muy sabio: los exchanges se dividen en solo dos categorías; los que han sido hackeados y los que serán hackeados.
 
-By holding your own keys, you (and only you) are able to spend your bitcoin. You should take time to read this FAQ in order to understand the common errors & mistakes, and to learn the best practice in seed management. Be aware that this a general guideline. Every solution for storing your bitcoin seed will be a tradeoff between security and usability, and the level of security needed or wanted will vary from person to person, as will the threats you are trying to secure yourself against.
+Al disponer de tus propias llaves, tu (y solo tu) puedes gastar tu bitcoin. Debes tomarte el tiempo de leer estas preguntas frecuentes para que comprendas cuales son los errores comunes y las mejores prácticas en el manejo de semillas. Ten en cuenta que esta es una pauta general. El nivel de seguridad necesario o deseado variará de una persona a otra, al igual que las amenazas contra las que intentas protegerse.
 
-### Terminology
+### Terminología
 
-When it comes to bitcoin seed descriptions, words are often confused and used interchangeably. It is important that we speak a common language, so let me define what I mean by each of these words.
+Cuando se trata de descripciones de semillas de bitcoin, las palabras a menudo se confunden y se usan indistintamente. Es importante que hablemos un idioma común, así que permíteme definir lo que quiero decir con cada una de estas palabras.
 
-| Word | Definition | Other Names |
+| Nombre | Descripción | Otros nombres |
 | ---- | ---- | ---- |
-| [**Private Key**](https://en.bitcoin.it/wiki/Private_key) | A secret 256 bit number that you use to spend bitcoin | Secret Key | 
-| [**Seed**](https://en.bitcoin.it/wiki/Seed_phrase) | A 256 bit number which can be used to generate a bitcoin private key. |  |
-| **Mnemonic Seed** | The seed encoded in the form of a list of words in a specific order.  | Mnemonic / Seed Phrase / Seed Words |
-| **Non-Extended Mnemonic** | 12/24 Words (Just the Mnemonic) | Mnemonic  | 
-| **Extended Mnemonic** | 12+/24+ Words: Mnemonic (12/24 words) + Passphrase (1 word or sentence) | Extended Seed | 
-| **Backup** | A complete set of information from which your bitcoin can be recovered  | |
-| **Encrypted Backup** | Backup encrypted with a password (not to be confused with a passphrase) | |
+| [**Clave privada**](https://en.bitcoin.it/wiki/Private_key) | Un número secreto de 256 bits que usa para gastar los fondos | Clave secreta | 
+| [**Semilla**](https://en.bitcoin.it/wiki/Seed_phrase) | Un número de 256 bits que se puede usar para generar una clave privada de bitcoin. |  |
+| **Semilla mnemotécnica** | The seed encoded in the form of a list of words in a specific order.  | Mnemonic / Seed Phrase / Seed Words |
+| **Mnemotécnica no extendida** | 12/24 palabras (solo la mnemotecnica) | Mnemotécnica  | 
+| **Mnemotécnica extendida** | 12+/24+ palabras: Mnemotécnica (12/24 palabras) + Frase de contraseña (1 palabra o frase) | semilla extendida | 
+| **Copia de seguridad** | Un conjunto completo de información de la que se puede recuperar tu bitcoin  | |
+| **Copia de seguridad encriptada** | Copia de seguridad cifrada con una contraseña (que no debe confundirse con una frase de contraseña) | |
 
-### What is a HD Wallet?
+### ¿Qué es una cartera determinista jerárquica?
 
 In practice, most bitcoin wallets are 'HD' (Hierarchical Deterministic) wallets - This means that a single bitcoin private key is used to generate as many key pairs as is required. This makes it easy for the user to use a new address each time they receive bitcoin, which is how bitcoin is designed to be used. 
 
