@@ -46,8 +46,8 @@ Cuando se trata de descripciones de semillas de bitcoin, las palabras a menudo s
 
 | Nombre | Descripción | Otros nombres |
 | ---- | ---- | ---- |
-| [**Clave privada**](https://en.bitcoin.it/wiki/Private_key) | Un número secreto de 256 bits que usa para gastar los fondos | Clave secreta | 
-| [**Semilla**](https://en.bitcoin.it/wiki/Seed_phrase) | Un número de 256 bits que se puede usar para generar una clave privada de bitcoin. |  |
+| [**Clave privada**](https://en.bitcoin.it/wiki/Private_key) | Un número secreto de 256 bits que se usa para gastar los fondos | Clave secreta | 
+| [**Semilla**](https://en.bitcoin.it/wiki/Seed_phrase) | Un número de 256 bits que se usa para generar una clave privada de bitcoin. |  |
 | **Semilla mnemotécnica** | The seed encoded in the form of a list of words in a specific order.  | Mnemotécnica / Semilla / Palabras de la semilla |
 | **Mnemotécnica no extendida** | 12/24 palabras (solo la mnemotecnica) | Mnemotécnica  | 
 | **Mnemotécnica extendida** | 12+/24+ palabras: Mnemotécnica (12/24 palabras) + Frase de contraseña (1 palabra o frase) | semilla extendida | 
